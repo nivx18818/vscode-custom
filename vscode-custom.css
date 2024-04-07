@@ -49,6 +49,9 @@
   background-color: #13151e !important;
   border-style: none;
 }
+.tab:first-child {
+  margin-left: 4px;
+}
 .tab.active {
   border-radius: 100px !important;
   background-color: #141523 !important;
