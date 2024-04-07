@@ -56,14 +56,14 @@
 
 /* scrollbar custom */
 .editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider {
-  background-image: linear-gradient(to top, #141523, #141523);
+  background-color: transparent !important;
   width: 5px !important;
 }
 .editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider:hover {
   background-image: linear-gradient(to top, #141523, #402565, #30BE96, #402565, #141523);
 }
 .editor-container .monaco-scrollable-element > .scrollbar.horizontal > .slider {
-  background-image: linear-gradient(to top, #141523, #141523);
+  background-color: transparent !important;
   height: 5px !important;
 }
 .editor-container .monaco-scrollable-element > .scrollbar.horizontal > .slider:hover {
