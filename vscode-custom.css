@@ -1,3 +1,4 @@
+/* tab custom */
 .tab-border-bottom-container,
 .tab-border-top-container {
 	-webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -12,6 +13,7 @@
 	border-radius: inherit;
 	box-sizing: border-box;
 }
+
 .tab-border-bottom-container:before,
 .tab-border-top-container:before {
 	content: "";
@@ -38,13 +40,13 @@
 		);
 	border-radius: inherit;
 }
+
 @keyframes spinner {
 	100% {
 		transform: translate(-50%, -50%) rotate(1turn);
 	}
 }
 
-/* tab custom */
 .tab {
 	background-color: #13151e !important;
 	border-style: none;
@@ -63,14 +65,28 @@
 	width: 5px !important;
 }
 .editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider:hover {
-	background-image: linear-gradient(to top, #141523, #402565, #30be96, #402565, #141523);
+	background-image: linear-gradient(
+		to top,
+		#141523,
+		#402565,
+		#30be96,
+		#402565,
+		#141523
+	);
 }
 .editor-container .monaco-scrollable-element > .scrollbar.horizontal > .slider {
 	background-color: transparent !important;
 	height: 5px !important;
 }
 .editor-container .monaco-scrollable-element > .scrollbar.horizontal > .slider:hover {
-	background-image: linear-gradient(to right, #141523, #402565, #30be96, #402565, #141523);
+	background-image: linear-gradient(
+		to right,
+		#141523,
+		#402565,
+		#30be96,
+		#402565,
+		#141523
+	);
 }
 
 /* fix Power Mode extension's issue */
