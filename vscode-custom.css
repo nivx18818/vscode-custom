@@ -61,7 +61,7 @@
         border-radius: 100px !important;
         background-color: #141523 !important;
         transform: scale(1.05);
-        z-index: 1;
+        z-index: 999;
     }
 }
 
