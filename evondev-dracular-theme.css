@@ -58,10 +58,10 @@
     }
 
     &.active {
-        border-radius: 100px !important;
+        border-radius: 999px !important;
         background-color: #141523 !important;
         transform: scale(1.05);
-        z-index: 999;
+        z-index: 3;
     }
 }
 

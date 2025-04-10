@@ -1,3 +1,7 @@
+.tab.active {
+    border-radius: 6px !important;
+}
+
 /* fix Power Mode extension's issue */
 .monaco-editor .lines-content > .view-lines > .view-line > span {
     width: inherit;
