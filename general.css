@@ -2,6 +2,15 @@
     border-radius: 6px !important;
 }
 
+.title-actions {
+    display: none !important
+}
+
+.title.show-file-icons .label-container .monaco-icon-label.file-icon {
+    justify-content: center;
+    scale: 1.1;
+}
+
 /* fix Power Mode extension's issue */
 .monaco-editor .lines-content > .view-lines > .view-line > span {
     width: inherit;
