@@ -3,7 +3,18 @@
 }
 
 .title-actions {
-    display: none !important
+    opacity: 0 !important;
+    transition: opacity 0.2s !important;
+    pointer-events: none !important;
+}
+
+*:has(> .title-actions):hover .title-actions {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
+
+.editor-group-container .title-actions {
+    display: none !important;
 }
 
 .title.show-file-icons .label-container .monaco-icon-label.file-icon {
