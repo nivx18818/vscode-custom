@@ -29,11 +29,10 @@
 
 /* replace VSCode watermark */
 .editor-group-watermark {
-    max-width: 680px !important;
+    max-width: 404px !important;
 
     & .letterpress {
-        background-image: url("https://raw.githubusercontent.com/ichigoih/vscode-custom/main/VSCode-watermark/404-NotFound.png") !important;
+        background-image: url("https://raw.githubusercontent.com/nivx18818/vscode-custom/refs/heads/main/VSCode-watermark/pmndrs.png") !important;
         aspect-ratio: 8/5 !important;
-        transform: rotate(-10deg);
     }
 }
