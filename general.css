@@ -17,7 +17,7 @@
     display: none !important;
 }
 
-.title.show-file-icons .label-container .monaco-icon-label.file-icon {
+.title.show-file-icons .label-container .monaco-icon-label {
     justify-content: center;
     scale: 1.1;
 }
